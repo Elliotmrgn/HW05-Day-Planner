@@ -62,5 +62,4 @@ $(".saveBtn").click(function () {
     data = this.parentElement.children[1].children[0].value;
     savedText[slot] = data;
     localStorage.setItem("savedText", JSON.stringify(savedText))
-    alert("click");
 })
