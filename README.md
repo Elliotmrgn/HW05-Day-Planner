@@ -15,4 +15,4 @@ Allows users to create an hourly schedule for a working day.
 -Displays the past hours in Grey
 
 Example of layout
-* [`Example`](Example.JPG)
+* [`Example`](Example/Example.JPG)
