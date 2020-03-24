@@ -1,6 +1,6 @@
 
 const today = moment();
-var hour = today._d.getHours();
+var hour = 11//today._d.getHours();
 
 const savedText = JSON.parse(localStorage.getItem("savedText")) || [];
 
@@ -46,7 +46,7 @@ function buildDay() {
         }
 
         //adds save button
-        var saveEle = $("<div class='saveBtn'>Edit</div>");
+        var saveEle = $("<div class='saveBtn'><span>Edit</span></div>");
 
         rowEl.append(hourEle, textEl, saveEle);
         $(".container").append(rowEl);
