@@ -1,6 +1,6 @@
 
 const today = moment();
-var hour = 11//today._d.getHours();
+var hour = today._d.getHours();
 
 const savedText = JSON.parse(localStorage.getItem("savedText")) || [];
 
